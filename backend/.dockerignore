@@ -1,0 +1,7 @@
+venv
+.env
+.vscode
+.DS_Store
+db.sqlite3
+media
+collected_static
