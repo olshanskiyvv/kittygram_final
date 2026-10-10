@@ -1,0 +1,5 @@
+repo_owner: olshanskiyvv
+kittygram_domain: https://kittygram.olshanskiyvv.ru
+taski_domain: https://taski.olshanskiyvv.ru
+dockerhub_username: olshanskyvv
+vm_name: r-fullstack-magistracy-my-own-server  # Выдача учебного сервера не работала, поэтому проект развёрнут на собственном сервере
