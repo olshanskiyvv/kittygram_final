@@ -5,6 +5,7 @@ volumes:
 
 services:
   db:
+    restart: always
     image: postgres:13.10
     env_file: .env
     volumes:
@@ -16,6 +17,7 @@ services:
       retries: 10
 
   backend:
+    restart: always
     image: olshanskyvv/kittygram_backend:latest
     env_file: .env
     volumes:
@@ -33,6 +35,7 @@ services:
       - static:/frontend_static
 
   gateway:
+    restart: always
     image: olshanskyvv/kittygram_gateway:latest
     env_file: .env
     ports:
